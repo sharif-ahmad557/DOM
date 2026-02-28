@@ -9,3 +9,8 @@ for (const h1 of h1Eliment) {
   console.log(h1.innerText);
 }
 console.log(h1Eliment);
+const heading = document.getElementsByClassName("heading");
+console.log(heading.innerText);
+// text changed
+const headerH1 = document.getElementById("header");
+header.innerText = "amar bangladesh";
