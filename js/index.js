@@ -1,0 +1,11 @@
+const result = document.getElementsByTagName("li");
+for (const licoll of result) {
+  console.log(licoll.innerText);
+}
+console.log(result);
+
+const h1Eliment = document.getElementsByTagName("h1");
+for (const h1 of h1Eliment) {
+  console.log(h1.innerText);
+}
+console.log(h1Eliment);
