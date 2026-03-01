@@ -14,3 +14,9 @@ console.log(heading.innerText);
 // text changed
 const headerH1 = document.getElementById("header");
 header.innerText = "amar bangladesh";
+
+const spanEli = document.querySelectorAll(".section span");
+console.log(spanEli);
+for (const span of spanEli) {
+  console.log(span.innerText);
+}
