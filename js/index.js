@@ -77,3 +77,4 @@ bookSection.innerHTML = `
 </ul>
 `;
 createSection.appendChild(bookSection);
+console.log(bookSection.innerText);
